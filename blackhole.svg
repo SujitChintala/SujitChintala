@@ -1,0 +1,183 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for the black hole -->
+    <radialGradient id="blackholeGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#1a1a1a;stop-opacity:0.9" />
+      <stop offset="90%" style="stop-color:#ff6600;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ffaa00;stop-opacity:0.3" />
+    </radialGradient>
+    
+    <!-- Gradient for the accretion disk -->
+    <radialGradient id="accretionGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0" />
+      <stop offset="30%" style="stop-color:#ff3300;stop-opacity:0.4" />
+      <stop offset="60%" style="stop-color:#ff6600;stop-opacity:0.6" />
+      <stop offset="80%" style="stop-color:#ffaa00;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffdd00;stop-opacity:0.5" />
+    </radialGradient>
+    
+    <!-- Gradient for stars -->
+    <radialGradient id="starGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffff99;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffff99;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Planet gradients -->
+    <radialGradient id="planet1Gradient" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#4169E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000080;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="planet2Gradient" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#FF4500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="planet3Gradient" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#32CD32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#000011"/>
+  
+  <!-- Background stars -->
+  <circle cx="100" cy="80" r="1" fill="#ffffff" opacity="0.8"/>
+  <circle cx="200" cy="120" r="1.5" fill="#ffff99" opacity="0.9"/>
+  <circle cx="350" cy="70" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle cx="500" cy="90" r="1.2" fill="#ffff99" opacity="0.8"/>
+  <circle cx="650" cy="110" r="1" fill="#ffffff" opacity="0.9"/>
+  <circle cx="750" cy="150" r="1.5" fill="#ffff99" opacity="0.7"/>
+  <circle cx="80" cy="200" r="1" fill="#ffffff" opacity="0.8"/>
+  <circle cx="720" cy="250" r="1.2" fill="#ffff99" opacity="0.9"/>
+  <circle cx="150" cy="350" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle cx="600" cy="400" r="1.5" fill="#ffff99" opacity="0.8"/>
+  <circle cx="50" cy="450" r="1" fill="#ffffff" opacity="0.9"/>
+  <circle cx="700" cy="500" r="1.2" fill="#ffff99" opacity="0.7"/>
+  
+  <!-- Accretion disk (rotating) -->
+  <ellipse cx="400" cy="300" rx="200" ry="60" fill="url(#accretionGradient)" opacity="0.7">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="0 400 300;360 400 300"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </ellipse>
+  
+  <ellipse cx="400" cy="300" rx="160" ry="45" fill="url(#accretionGradient)" opacity="0.5">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="0 400 300;-360 400 300"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Black hole event horizon -->
+  <circle cx="400" cy="300" r="50" fill="url(#blackholeGradient)">
+    <animate attributeName="r" values="45;55;45" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Gravitational lensing effect -->
+  <circle cx="400" cy="300" r="70" fill="none" stroke="#ff6600" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Planet 1 - Blue planet being sucked in -->
+  <circle cx="0" cy="0" r="12" fill="url(#planet1Gradient)">
+    <animateMotion dur="15s" repeatCount="indefinite">
+      <path d="M 700 150 Q 600 200 500 250 Q 450 275 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="12;8;4;0" dur="15s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Planet 2 - Red planet -->
+  <circle cx="0" cy="0" r="15" fill="url(#planet2Gradient)">
+    <animateMotion dur="20s" repeatCount="indefinite">
+      <path d="M 100 450 Q 200 400 300 350 Q 350 325 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="15;10;5;0" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Planet 3 - Green planet -->
+  <circle cx="0" cy="0" r="10" fill="url(#planet3Gradient)">
+    <animateMotion dur="18s" repeatCount="indefinite">
+      <path d="M 750 500 Q 650 450 550 400 Q 475 350 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="10;7;3;0" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Stars being sucked in -->
+  <circle cx="0" cy="0" r="3" fill="url(#starGradient)">
+    <animateMotion dur="12s" repeatCount="indefinite">
+      <path d="M 150 100 Q 250 150 350 200 Q 375 250 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="3;2;1;0" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="0" cy="0" r="4" fill="url(#starGradient)">
+    <animateMotion dur="14s" repeatCount="indefinite">
+      <path d="M 650 120 Q 550 180 450 240 Q 425 270 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="4;3;1;0" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="0" cy="0" r="2.5" fill="url(#starGradient)">
+    <animateMotion dur="10s" repeatCount="indefinite">
+      <path d="M 80 350 Q 180 320 280 310 Q 340 305 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="2.5;2;1;0" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Debris and particles -->
+  <circle cx="0" cy="0" r="1.5" fill="#ffaa44">
+    <animateMotion dur="8s" repeatCount="indefinite">
+      <path d="M 600 180 Q 550 220 500 260 Q 450 280 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="1.5;1;0.5;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="0" cy="0" r="1" fill="#ff6633">
+    <animateMotion dur="6s" repeatCount="indefinite">
+      <path d="M 200 200 Q 250 230 300 260 Q 350 280 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="1;0.8;0.3;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="0" cy="0" r="1.2" fill="#ffcc66">
+    <animateMotion dur="9s" repeatCount="indefinite">
+      <path d="M 500 100 Q 480 150 460 200 Q 430 250 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="1.2;0.9;0.4;0" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Additional particle streams -->
+  <circle cx="0" cy="0" r="0.8" fill="#ff9944">
+    <animateMotion dur="7s" repeatCount="indefinite">
+      <path d="M 700 400 Q 600 380 500 350 Q 450 325 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="0.8;0.6;0.2;0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="0" cy="0" r="1.3" fill="#ffbb55">
+    <animateMotion dur="11s" repeatCount="indefinite">
+      <path d="M 50 250 Q 150 270 250 285 Q 325 295 400 300"/>
+    </animateMotion>
+    <animate attributeName="r" values="1.3;1;0.5;0" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Energy bursts from black hole -->
+  <circle cx="400" cy="300" r="0" fill="#ff3300" opacity="0.8">
+    <animate attributeName="r" values="0;80;0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="400" cy="300" r="0" fill="#ff6600" opacity="0.6">
+    <animate attributeName="r" values="0;60;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+</svg>
