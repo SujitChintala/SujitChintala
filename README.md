@@ -1,10 +1,10 @@
 <div align="center">
   
 <!-- Animated Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Sujit+Chintala+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Always+learning%2C+always+building+%F0%9F%92%A1;Welcome+to+my+digital+playground!+%F0%9F%8C%9F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF6B9D&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Sujit+Chintala+%F0%9F%91%8B;Always+learning%2C+always+building+%F0%9F%92%A1;Welcome+to+my+digital+playground!+%F0%9F%8C%9F" alt="Typing SVG" />
 
 <!-- Wave Animation -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=header&text=&fontSize=42&fontColor=fff&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,10&height=170&section=header&text=&fontSize=42&fontColor=fff&animation=twinkling"/>
 
 </div>
 
