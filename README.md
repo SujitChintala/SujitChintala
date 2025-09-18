@@ -12,28 +12,23 @@
 
 ## 🎯 About Me
 
-```javascript
-const sujit = {
-    pronouns: "He/Him",
-    code: ["JavaScript", "TypeScript", "Python", "Java", "C++"],
-    askMeAbout: ["web dev", "mobile dev", "system design", "coffee ☕"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Next.js", "Vue"],
-            css: ["Tailwind", "Bootstrap", "Material-UI"]
-        },
-        backEnd: {
-            js: ["Node.js", "Express"],
-            python: ["Django", "FastAPI"],
-            databases: ["MongoDB", "PostgreSQL", "MySQL"]
-        },
-        mobile: ["React Native", "Flutter"],
-        cloud: ["AWS", "Google Cloud", "Azure"],
-        tools: ["Docker", "Git", "Linux", "VS Code"]
+```python
+sujit = {
+    "pronouns": "He/Him",
+    "learning": ["Python", "Machine Learning", "Deep Learning", "Data Science"],
+    "ask_me_about": ["ML algorithms", "data analysis", "AI research", "coffee ☕"],
+    "technologies": {
+        "languages": ["Python", "R", "SQL", "JavaScript"],
+        "ml_frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras"],
+        "data_tools": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"],
+        "databases": ["PostgreSQL", "MongoDB", "SQLite"],
+        "cloud_ml": ["AWS SageMaker", "Google Colab", "Azure ML"],
+        "tools": ["Jupyter", "Git", "Docker", "VS Code"]
     },
-    currentFocus: "Building scalable applications that solve real problems",
-    funFact: "I debug code better with music on 🎵"
-};
+    "current_goal": "Transitioning into Machine Learning Engineering",
+    "passion": "Turning data into insights and building intelligent systems",
+    "fun_fact": "I believe every dataset has a story to tell 📊"
+}
 ```
 
 ---
@@ -44,26 +39,29 @@ const sujit = {
 <tr>
 <td width="50%">
 
-### 🔥 Current Projects
-- 🏗️ Building a **SaaS platform** for small businesses
-- 📱 Developing a **React Native** app for productivity
-- 🤖 Experimenting with **AI/ML** integrations
-- 🌐 Contributing to **open source** projects
+### 🤖 Current Learning Path
+- 📚 Studying **Machine Learning** algorithms and theory
+- 🧠 Exploring **Deep Learning** and Neural Networks
+- 📊 Mastering **Data Science** and Analytics
+- 🔬 Working on **ML projects** and case studies
 
-### 🌱 Learning Journey
-- Advanced **System Design** patterns
-- **DevOps** and Cloud Architecture
-- **Web3** and Blockchain technologies
-- **UI/UX** design principles
+### 🌱 Skills I'm Building
+- **Data Analysis** and Visualization
+- **Statistical Modeling** and Inference
+- **Feature Engineering** and Selection
+- **Model Deployment** and MLOps
 
 </td>
 <td width="50%">
 
-### 📊 Coding Stats
+### 📊 GitHub Stats
 <img src="https://github-readme-stats.vercel.app/api?username=SujitChintala&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 
-### 🏆 GitHub Streak
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SujitChintala&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+### � Learning Progress
+Currently focused on building a strong foundation in:
+- Python for Data Science
+- ML Algorithms Implementation
+- Real-world Project Experience
 
 </td>
 </tr>
@@ -75,30 +73,29 @@ const sujit = {
 
 <div align="center">
 
-### Languages
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+### Languages & Core Skills
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Frontend
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### ML & Data Science
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-### Backend & Database
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+### Visualization & Analysis
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-### Cloud & DevOps
+### Cloud & Tools
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Google Colab](https://img.shields.io/badge/-Google_Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
@@ -121,29 +118,29 @@ const sujit = {
 
 ---
 
-## 🎮 When I'm Not Coding
+## 🎮 When I'm Not Learning
 
 <table>
 <tr>
 <td width="50%">
 
 ### 🎯 Interests
-- 📚 Reading tech blogs and documentation
-- 🎵 Listening to podcasts about innovation
-- ☕ Perfecting my coffee brewing techniques
-- 🏃‍♂️ Running and staying active
-- 🎮 Gaming (strategy and puzzle games)
-- 📸 Photography and creative projects
+- 📚 Reading ML research papers and articles
+- � Listening to AI/ML podcasts and conferences
+- ☕ Experimenting with different coffee brewing methods
+- 🏃‍♂️ Running and staying physically active
+- 📊 Analyzing data patterns in everyday life
+- 🧩 Solving puzzles and logical challenges
 
 </td>
 <td width="50%">
 
 ### 💭 Philosophy
-> "Code is like humor. When you have to explain it, it's bad." 
+> "In God we trust. All others must bring data." 
 > 
-> *- Cory House*
+> *- W. Edwards Deming*
 
-**My approach:** Write clean, maintainable code that tells a story. Build applications that make a difference, no matter how small.
+**My approach:** Let data guide decisions, but never forget the human element. Build models that not only perform well but also make a positive impact on people's lives.
 
 </td>
 </tr>
@@ -167,7 +164,7 @@ const sujit = {
 <div align="center">
 
 ### 💼 Open for Opportunities
-I'm always interested in collaborating on exciting projects or discussing new opportunities. Feel free to reach out!
+I'm actively seeking **Machine Learning Engineer** positions and exciting **ML projects** to collaborate on. Let's build the future with AI!
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=120&section=footer&animation=fadeIn"/>
 
