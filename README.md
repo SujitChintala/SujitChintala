@@ -41,12 +41,6 @@ sujit = {
 - 🧠 Exploring **Deep Learning** and Neural Networks.
 - 🔬 Working on **ML projects**.
 
-
-### � Learning Progress
-Currently focused on building a strong foundation in:
-- ML Algorithms Implementation
-- Real-world Project Experience
-
 </td>
 <td width="50%">
 
