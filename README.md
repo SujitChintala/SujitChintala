@@ -1,7 +1,7 @@
 <div align="center">
   
 <!-- Animated Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=87CEEB&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Sujit+Chintala+%F0%9F%91%8B;Always+learning%2C+always+building+%F0%9F%92%A1;Welcome+to+my+digital+playground!+%F0%9F%8C%9F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=87CEEB&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Sujit+%F0%9F%91%8B;Always+learning%2C+always+building+%F0%9F%92%A1;Welcome+to+my+digital+playground!+%F0%9F%8C%9F" alt="Typing SVG" />
 
 <!-- Wave Animation -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=170&section=header&text=&fontSize=42&fontColor=fff&animation=twinkling"/>
@@ -41,16 +41,17 @@ sujit = {
 - 🧠 Exploring **Deep Learning** and Neural Networks.
 - 🔬 Working on **ML projects**.
 
-</td>
-<td width="50%">
-
-### 📊 GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=SujitChintala&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 
 ### � Learning Progress
 Currently focused on building a strong foundation in:
 - ML Algorithms Implementation
 - Real-world Project Experience
+
+</td>
+<td width="50%">
+
+### 📊 GitHub Stats
+<img src="https://github-readme-stats.vercel.app/api?username=SujitChintala&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 
 </td>
 </tr>
@@ -120,7 +121,7 @@ Currently focused on building a strong foundation in:
 <div align="center">
 
 ### 💼 Open for collaboration
-I'll be very happy to collaborate on any Projects
+I'll be very happy to collaborate.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=120&section=footer&animation=fadeIn"/>
 
