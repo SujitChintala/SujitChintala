@@ -14,20 +14,17 @@
 
 ```python
 sujit = {
-    "pronouns": "He/Him",
-    "learning": ["Python", "Machine Learning", "Deep Learning", "Data Science"],
-    "ask_me_about": ["ML algorithms", "data analysis", "AI research", "coffee ☕"],
+    "currently_learning": ["Machine Learning", "Deep Learning"],
+    "ask_me_about": ["ML algorithms", "data analysis", "AI research"],
     "technologies": {
-        "languages": ["Python", "R", "SQL", "JavaScript"],
+        "languages": ["Python", "R", "SQL"],
         "ml_frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras"],
         "data_tools": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"],
-        "databases": ["PostgreSQL", "MongoDB", "SQLite"],
-        "cloud_ml": ["AWS SageMaker", "Google Colab", "Azure ML"],
+        "databases": ["PostgreSQL", "mysql", "SQLite"],
+        "cloud_ml": ["Google Colab"],
         "tools": ["Jupyter", "Git", "Docker", "VS Code"]
     },
-    "current_goal": "Transitioning into Machine Learning Engineering",
-    "passion": "Turning data into insights and building intelligent systems",
-    "fun_fact": "I believe every dataset has a story to tell 📊"
+    "passion": "Building intelligent systems"
 }
 ```
 
@@ -40,16 +37,9 @@ sujit = {
 <td width="50%">
 
 ### 🤖 Current Learning Path
-- 📚 Studying **Machine Learning** algorithms and theory
-- 🧠 Exploring **Deep Learning** and Neural Networks
-- 📊 Mastering **Data Science** and Analytics
-- 🔬 Working on **ML projects** and case studies
-
-### 🌱 Skills I'm Building
-- **Data Analysis** and Visualization
-- **Statistical Modeling** and Inference
-- **Feature Engineering** and Selection
-- **Model Deployment** and MLOps
+- 📚 Studying **Machine Learning** algorithms and the math behind them.
+- 🧠 Exploring **Deep Learning** and Neural Networks.
+- 🔬 Working on **ML projects**.
 
 </td>
 <td width="50%">
@@ -59,7 +49,6 @@ sujit = {
 
 ### � Learning Progress
 Currently focused on building a strong foundation in:
-- Python for Data Science
 - ML Algorithms Implementation
 - Real-world Project Experience
 
@@ -77,7 +66,6 @@ Currently focused on building a strong foundation in:
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### ML & Data Science
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -116,38 +104,6 @@ Currently focused on building a strong foundation in:
 </table>
 </div>
 
----
-
-## 🎮 When I'm Not Learning
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 Interests
-- 📚 Reading ML research papers and articles
-- � Listening to AI/ML podcasts and conferences
-- ☕ Experimenting with different coffee brewing methods
-- 🏃‍♂️ Running and staying physically active
-- 📊 Analyzing data patterns in everyday life
-- 🧩 Solving puzzles and logical challenges
-
-</td>
-<td width="50%">
-
-### 💭 Philosophy
-> "In God we trust. All others must bring data." 
-> 
-> *- W. Edwards Deming*
-
-**My approach:** Let data guide decisions, but never forget the human element. Build models that not only perform well but also make a positive impact on people's lives.
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🤝 Let's Connect!
 
 <div align="center">
@@ -163,14 +119,11 @@ Currently focused on building a strong foundation in:
 
 <div align="center">
 
-### 💼 Open for Opportunities
-I'm actively seeking **Machine Learning Engineer** positions and exciting **ML projects** to collaborate on. Let's build the future with AI!
+### 💼 Open for collaboration
+I'll be very happy to collaborate on any Projects
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=120&section=footer&animation=fadeIn"/>
 
-**⭐ "Building the future, one commit at a time" ⭐**
-
 ![Profile Views](https://komarev.com/ghpvc/?username=SujitChintala&style=for-the-badge&color=brightgreen)
 
-</div>👋 Hi, I’m @SujitChintala
-- 👀 I’m interested in building things.
+</div>
