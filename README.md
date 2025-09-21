@@ -28,31 +28,6 @@ sujit = {
 }
 ```
 
----
-
-## 🚀 What I'm Up To
-
-<table>
-<tr>
-<td width="50%">
-
-### 🤖 Current Learning Path
-- 📚 Studying **Machine Learning** algorithms and the math behind them.
-- 🧠 Exploring **Deep Learning** and Neural Networks.
-- 🔬 Working on **ML projects**.
-
-</td>
-<td width="50%">
-
-### 📊 GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=SujitChintala&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
@@ -90,9 +65,6 @@ sujit = {
 <table>
 <tr>
 <td width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SujitChintala&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</td>
-<td width="50%">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=SujitChintala&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </td>
 </tr>
@@ -104,9 +76,7 @@ sujit = {
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sujitchintala)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sujitchintala)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://sujitchintala.dev)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@sujitchintala.dev)
 
 </div>
 
@@ -115,7 +85,6 @@ sujit = {
 <div align="center">
 
 ### 💼 Open for collaboration
-I'll be very happy to collaborate.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=120&section=footer&animation=fadeIn"/>
 
