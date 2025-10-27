@@ -21,7 +21,6 @@ sujit = {
         "ml_frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras"],
         "data_tools": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"],
         "databases": ["PostgreSQL", "mysql", "SQLite"],
-        "cloud_ml": ["Google Colab"],
         "tools": ["Jupyter", "Git", "Docker", "VS Code"]
     },
     "passion": "Building intelligent systems"
