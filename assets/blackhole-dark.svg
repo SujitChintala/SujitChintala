@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <!-- Gradient definitions for black hole -->
+    <radialGradient id="blackHoleGradient" cx="20%" cy="50%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#1a0033;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#4d0099;stop-opacity:0.8" />
+      <stop offset="80%" style="stop-color:#00d9ff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Wormhole gradient -->
+    <radialGradient id="wormholeGradient" cx="80%" cy="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="30%" style="stop-color:#00d9ff;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#4d0099;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Accretion disk gradient -->
+    <linearGradient id="accretionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b00;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00d9ff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Particle animations -->
+    <style>
+      @keyframes orbit1 {
+        0% { transform: rotate(0deg) translateX(140px) rotate(0deg); opacity: 1; }
+        50% { transform: rotate(180deg) translateX(100px) rotate(-180deg); opacity: 0.3; }
+        100% { transform: rotate(360deg) translateX(60px) rotate(-360deg); opacity: 0; }
+      }
+      
+      @keyframes orbit2 {
+        0% { transform: rotate(120deg) translateX(160px) rotate(-120deg); opacity: 1; }
+        50% { transform: rotate(300deg) translateX(110px) rotate(-300deg); opacity: 0.3; }
+        100% { transform: rotate(480deg) translateX(60px) rotate(-480deg); opacity: 0; }
+      }
+      
+      @keyframes orbit3 {
+        0% { transform: rotate(240deg) translateX(150px) rotate(-240deg); opacity: 1; }
+        50% { transform: rotate(420deg) translateX(105px) rotate(-420deg); opacity: 0.3; }
+        100% { transform: rotate(600deg) translateX(60px) rotate(-600deg); opacity: 0; }
+      }
+      
+      @keyframes wormholeEmerge {
+        0% { transform: scale(0) rotate(0deg); opacity: 0; }
+        50% { transform: scale(0.5) rotate(180deg); opacity: 0.5; }
+        100% { transform: scale(1) rotate(360deg); opacity: 1; }
+      }
+      
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.05); }
+      }
+      
+      @keyframes emerge {
+        0% { transform: translateX(100px) scale(0); opacity: 0; }
+        100% { transform: translateX(0) scale(1); opacity: 1; }
+      }
+      
+      .particle { animation: orbit1 4s infinite linear; }
+      .particle2 { animation: orbit2 4.5s infinite linear; }
+      .particle3 { animation: orbit3 5s infinite linear; }
+      .accretion-disk { 
+        animation: spin 20s infinite linear; 
+        transform-origin: center;
+      }
+      .black-hole-core { 
+        animation: pulse 3s infinite ease-in-out;
+        transform-origin: center;
+      }
+      .wormhole { 
+        animation: wormholeEmerge 6s infinite ease-out;
+        transform-origin: center;
+      }
+      .info-text {
+        animation: emerge 2s ease-out forwards;
+        animation-delay: 3s;
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#0d1117"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="1" fill="#ffffff" opacity="0.8"/>
+  <circle cx="300" cy="80" r="1.5" fill="#00d9ff" opacity="0.6"/>
+  <circle cx="500" cy="30" r="1" fill="#ffffff" opacity="0.9"/>
+  <circle cx="700" cy="100" r="1" fill="#ff00ff" opacity="0.7"/>
+  <circle cx="900" cy="60" r="1.5" fill="#00d9ff" opacity="0.8"/>
+  <circle cx="1100" cy="90" r="1" fill="#ffffff" opacity="0.6"/>
+  <circle cx="150" cy="350" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle cx="400" cy="370" r="1.5" fill="#00d9ff" opacity="0.5"/>
+  <circle cx="600" cy="320" r="1" fill="#ffffff" opacity="0.8"/>
+  <circle cx="850" cy="340" r="1" fill="#ff00ff" opacity="0.6"/>
+  <circle cx="1050" cy="380" r="1.5" fill="#00d9ff" opacity="0.7"/>
+  
+  <!-- BLACK HOLE SECTION (Left Side) -->
+  <g transform="translate(240, 200)">
+    <!-- Accretion Disk -->
+    <g class="accretion-disk">
+      <ellipse cx="0" cy="0" rx="180" ry="40" fill="none" stroke="url(#accretionGradient)" stroke-width="3" opacity="0.7" filter="url(#glow)"/>
+      <ellipse cx="0" cy="0" rx="150" ry="32" fill="none" stroke="url(#accretionGradient)" stroke-width="2" opacity="0.5"/>
+      <ellipse cx="0" cy="0" rx="120" ry="25" fill="none" stroke="#00d9ff" stroke-width="2" opacity="0.6"/>
+    </g>
+    
+    <!-- Event Horizon -->
+    <circle cx="0" cy="0" r="90" fill="url(#blackHoleGradient)" filter="url(#glow)"/>
+    
+    <!-- Black Hole Core -->
+    <circle cx="0" cy="0" r="60" fill="#000000" class="black-hole-core"/>
+    <circle cx="0" cy="0" r="50" fill="#000000" opacity="0.95"/>
+    
+    <!-- Particles being sucked in -->
+    <g class="particle">
+      <circle cx="0" cy="0" r="3" fill="#00d9ff" filter="url(#glow)"/>
+    </g>
+    <g class="particle2">
+      <circle cx="0" cy="0" r="2.5" fill="#ff6b00" filter="url(#glow)"/>
+    </g>
+    <g class="particle3">
+      <circle cx="0" cy="0" r="2" fill="#ff00ff" filter="url(#glow)"/>
+    </g>
+    
+    <!-- Hawking Radiation -->
+    <circle cx="-70" cy="-70" r="2" fill="#00d9ff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="70" r="2" fill="#ff00ff" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- CONNECTION TUNNEL -->
+  <path d="M 420 200 Q 600 180 780 200" stroke="#00d9ff" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="10,5">
+    <animate attributeName="stroke-dashoffset" from="0" to="30" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 420 200 Q 600 220 780 200" stroke="#4d0099" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="10,5">
+    <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- WORMHOLE SECTION (Right Side) -->
+  <g transform="translate(960, 200)" class="wormhole">
+    <!-- Wormhole Opening -->
+    <circle cx="0" cy="0" r="100" fill="url(#wormholeGradient)" filter="url(#glow)"/>
+    
+    <!-- Wormhole Rings -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#00d9ff" stroke-width="3" opacity="0.7">
+      <animate attributeName="r" values="80;90;80" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#ff00ff" stroke-width="2" opacity="0.6">
+      <animate attributeName="r" values="60;70;60" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8">
+      <animate attributeName="r" values="40;50;40" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Emerging particles -->
+    <circle cx="-30" cy="-30" r="3" fill="#00d9ff" filter="url(#glow)">
+      <animate attributeName="cx" values="-30;-60;-90" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="-30;-40;-50" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="20" cy="30" r="2.5" fill="#ff6b00" filter="url(#glow)">
+      <animate attributeName="cx" values="20;50;80" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="30;45;60" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;0" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- LABELS -->
+  <g class="info-text">
+    <text x="240" y="380" font-family="'Courier New', monospace" font-size="18" fill="#00d9ff" text-anchor="middle" font-weight="bold">
+      BLACK HOLE
+    </text>
+    <text x="240" y="400" font-family="'Courier New', monospace" font-size="12" fill="#888" text-anchor="middle">
+      Singularity Point
+    </text>
+    
+    <text x="960" y="380" font-family="'Courier New', monospace" font-size="18" fill="#00d9ff" text-anchor="middle" font-weight="bold">
+      WORMHOLE
+    </text>
+    <text x="960" y="400" font-family="'Courier New', monospace" font-size="12" fill="#888" text-anchor="middle">
+      Exit Portal
+    </text>
+    
+    <text x="600" y="150" font-family="'Courier New', monospace" font-size="14" fill="#00d9ff" text-anchor="middle" opacity="0.7">
+      ─── Quantum Tunnel ───
+    </text>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="50" font-family="'Courier New', monospace" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    🌌 WELCOME TO THE EVENT HORIZON 🌌
+  </text>
+  <text x="600" y="75" font-family="'Courier New', monospace" font-size="14" fill="#00d9ff" text-anchor="middle">
+    Information enters the black hole... and emerges through the wormhole
+  </text>
+</svg>
