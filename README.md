@@ -20,6 +20,7 @@ sujit = {
 "languages": ["Python", "R", "SQL", "TypeScript", "JavaScript", "HTML", "CSS"],
 "ml_dl": ["TensorFlow", "PyTorch", "Scikit-learn", "LangChain"],
 "analysis_visualization": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly"],
+"databases": ["MongoDB", "PostgreSQL", "MySQL"],
 "tools": ["VS Code", "Jupyter", "Git", "GitHub", "Docker", "Colab", "Google Cloud"]
 },
 "passion": "Building intelligent systems"
@@ -51,6 +52,11 @@ sujit = {
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+### Databases
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Tools
 ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
