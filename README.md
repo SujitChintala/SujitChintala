@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=87CEEB&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Sujit+%F0%9F%91%8B;Always+learning%2C+always+building+%F0%9F%92%A1;Welcome+to+my" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=87CEEB&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Sujit+%F0%9F%91%8B;Always+learning%2C+always+building+%F0%9F%92%A1;Welcome+to" alt="Typing SVG" />
 
 <!-- Wave Animation -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=170&section=header&text=&fontSize=42&fontColor=fff&animation=twinkling"/>
